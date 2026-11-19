@@ -1,0 +1,6 @@
+aws_region       = "ap-south-1"
+instance_type    = "t3.medium"
+instance_name    = "frappe-crm-server"
+deployment_email = "admin@example.com"
+site_name        = "crm.example.com"
+ssh_allowed_cidr = "203.0.113.10/32"

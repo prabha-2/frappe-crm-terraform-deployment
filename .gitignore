@@ -1,0 +1,21 @@
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# Sensitive variable files
+terraform.tfvars
+
+# SSH private keys
+*.pem
+*.key
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
